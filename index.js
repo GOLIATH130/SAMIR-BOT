@@ -268,9 +268,9 @@ async function starts() {
 				num = anu.participants[0]
 				teks = `Hai @${num.split('@')[0]}
 Bienvenid@ a 
-*${mdata.subject}* Joder que bueno verte por aca,Espero que la pases super en este grupo😏,Da un vistaso alas reglas para evitar malentendidos
+*${mdata.subject}* Joder que bueno verte por aca🥺,Espero que la pases super en este grupo😏,Da un vistaso alas reglas para evitar malentendidos
 
-Ketik ${prefix}verify para empezar a usar el bot.`
+Usa ${prefix}verify para empezar a usar el bot.`
 				Lxa.sendMessage(mdata.id, teks, MessageType.text, { contextInfo: {"mentionedJid": [num]}})
 			} else if (anu.action == 'remove') {
 				num = anu.participants[0]
@@ -899,8 +899,7 @@ no hacer spam al bot
 ┃ _Anuncio_
 ┠⊷️ *${prefix}Blocklist*
 ┃ _Lista de usuarios bloqueados_
-┗━━━━━━━━━━━━━━━━━━━━
-BOT BY ALEJOofc`,
+┗━━━━━━━━━━━━━━━`,
 
 contextInfo: {
   mentionedJid: [sender]
